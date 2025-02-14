@@ -16,4 +16,4 @@ def submit():
     return render_template('details.html', name=name, email=email, age=age, address=address, phone=phone)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    app.run(host='0.0.0.0', port=80, debug=True)
